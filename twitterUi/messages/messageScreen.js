@@ -4,6 +4,9 @@ import MessageBody from './messageComponents'
 const MessageScreen = () => {
     return (
     <SafeAreaView style={styles.container}>
+    <View style={{position:'absolute',bottom:30,right:12,width:75,height:73,borderRadius:50,backgroundColor:'#00A7E1',justifyContent:'center',zIndex:1}}>
+        <Image style={{ width:30, height:30,alignSelf:'center'}} source={require('../assets/email.png')} />
+    </View>
     <View style={styles.header}>
         <View style={styles.headerFirstRow}>
              <Image style={{ width:23, height:23}} source={require('../assets/ballhub.png')} />
@@ -24,7 +27,9 @@ const MessageScreen = () => {
 
 const styles = StyleSheet.create({
 container:{
-    flex: 1
+    flex: 1,
+    position: 'relative',
+    backgroundColor:'#FFFFFF',
 },
 header:{
     width:'100%',
@@ -60,6 +65,7 @@ inputContainer:{
 
 body:{
     height:'83%',
+    position:'relative'
 }
 })
 export default MessageScreen

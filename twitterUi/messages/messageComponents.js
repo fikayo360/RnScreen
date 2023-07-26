@@ -11,7 +11,7 @@ const MessageBody = ({messages}) => {
              </View>
              <View style={{marginBottom:20,width:'60%',marginLeft:20}}>
                  <Text style={{fontSize:13}}>{`${message.name}`} <Text style={{fontSize:13,color:'grey'}}>{`@${message.username}`}</Text></Text>
-                 <Text style={{fontSize:13,color:'grey'}}>{`You: ${message.MessageBody}`}</Text>
+                 <Text style={{fontSize:13,color:'grey'}}>{`You: ${message.messageBody}`}</Text>
              </View>
              <View style={{width:'20%',marginBottom:40}}>
                  <Text style={{fontSize:12,color:'grey'}}>{message.createdAt}</Text>
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         height:80,
         flexDirection:'row',
         borderWidth:0.3,
-        borderBottomColor:'grey',
+        borderBottomColor:'white',
         justifyContent:'space-between',
         alignItems:'center',
         paddingHorizontal:15

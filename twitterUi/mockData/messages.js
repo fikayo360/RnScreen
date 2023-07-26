@@ -43,7 +43,7 @@ const messages = [
         'name':'miles',
         'username':'mil3es_K',
         'img':'https://images.unsplash.com/photo-1496360166961-10a51d5f367a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-        'messageBody':'did you get the memo??',
+        'messageBody':'how was the party i heard pdiddy showed up with his crew',
         'receiver':'koradin',
         'createdAt':'7/25/2023'
     },
