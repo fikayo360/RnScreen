@@ -18,9 +18,9 @@ const styles = StyleSheet.create({
         flexDirection:'row'
     },
     body:{
-        height:'89%',
+        height:'90%',
         width:'100%',
-        borderWidth:0.5
+        borderWidth:0.5,
     },
     thread:{
         width:'100%',
@@ -38,7 +38,8 @@ const styles = StyleSheet.create({
     },
     tweetNotification:{
         color:'grey',
-        fontSize:13
+        fontSize:11,
+        width:'80%'
     },
     lowerContainer:{
         height:'80%',
@@ -69,7 +70,7 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         alignItems:'center',
-        marginTop:7,
+        marginTop:30,
         marginBottom:7
     },
     iconContainer:{
