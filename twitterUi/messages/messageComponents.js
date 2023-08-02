@@ -4,8 +4,8 @@ const MessageBody = ({messages}) => {
     
     return (
         <>
-        {messages.length > 0 && messages.map(message => (
-             <View style={styles.message}>
+        {messages.length > 0 && messages.map((message,index) => (
+             <View style={styles.message} key={index.toString()}>
              <View style={{width:60,height:60}}>
                  <Image  source={{uri:message.img}} style={styles.messageImg} borderRadius={70}/>
              </View>
