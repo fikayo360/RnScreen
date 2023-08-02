@@ -26,7 +26,14 @@ const styles = StyleSheet.create({
         width:'100%',
         borderBottomWidth:0.5,
         borderBottomColor:'grey',
-        minHeight:'30%',
+        maxHeight:'33%',
+        paddingTop:6
+    },
+    tweet:{
+        width:'100%',
+        borderBottomWidth:0.5,
+        borderBottomColor:'grey',
+        maxHeight:'28%',
         paddingTop:6
     },
     tweetNotification:{
@@ -38,7 +45,15 @@ const styles = StyleSheet.create({
         width:'100%',
         marginTop:10,
         flexDirection:'row',
-        justifyContent:'space-between'
+        justifyContent:'space-between',
+    },
+    tweetlowerContainer:{
+        height:'80%',
+        width:'100%',
+        marginTop:10,
+        flexDirection:'row',
+        justifyContent:'space-between',
+        paddingLeft:5
     },
     threadColumn:{
         height:'100%',
