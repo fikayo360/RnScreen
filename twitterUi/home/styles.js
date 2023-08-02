@@ -17,6 +17,17 @@ const styles = StyleSheet.create({
         paddingHorizontal:14,
         flexDirection:'row'
     },
+    header2:{
+        width:'100%',
+        paddingTop:28,
+        height:'10%',
+        borderWidth:0.3,
+        borderColor:'grey',
+        justifyContent:'space-between',
+        alignItems:'center',
+        paddingHorizontal:14,
+        flexDirection:'row'
+    },
     body:{
         height:'90%',
         width:'100%',
