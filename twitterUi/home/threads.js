@@ -1,5 +1,6 @@
 import {View,Text,Image} from 'react-native'
 import styles from './styles'
+
 const Threads = ({data}) => {
     
     return (
